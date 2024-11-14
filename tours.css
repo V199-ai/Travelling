@@ -1,0 +1,73 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0;
+    padding:0;
+}
+h1,h2,h3,h4,h5,h6{
+    margin-top: 0;
+}
+
+
+
+.navbar ul{
+   list-style: none;
+   background: rgb(143, 28, 28);
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+.navbar li{
+    display: inline-block;
+}
+.navbar a{
+    text-decoration: none;
+    color: #fff;
+    width:100px;
+    display: block;
+    padding: 25px 20px;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+}
+.navbar a:hover{
+    background: orange;
+}
+
+
+.service{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 50px 0;
+}
+
+.service article h3{
+    font-size: 24px;
+    margin-top: 0;
+}
+
+form{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9WbV-UJUTR9mPUO2GoBTLO82utfQozzJJnA&usqp=CAU');
+    background-repeat: no-repeat;
+    background-size:cover;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 50px auto;
+    max-width: 960px;
+    padding:0 20px;
+
+}    
+
+.contact {
+    display: block;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    margin: 50px auto;
+    max-width: 960px;
+    padding: 0 20px;
+}
+
+
+
